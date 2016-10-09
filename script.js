@@ -1,6 +1,8 @@
 var topbar = $("div")[0]
 
-var y = var topbar = 8
+topbar.css({"font-size": 40})
+
+
 
 
 console.log("Hi")
