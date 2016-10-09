@@ -1,5 +1,5 @@
-$("div")[0]
+var topbar = $("div")[0]
 
-.c
+
 
 console.log("Hi")
