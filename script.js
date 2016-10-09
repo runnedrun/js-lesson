@@ -1,6 +1,6 @@
 var topbar = $("div")[0]
 
-topbar.css({"font-size": 40})
+$(topbar).css({"background": "red"})
 
 
 
