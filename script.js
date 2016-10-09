@@ -1,8 +1,8 @@
 var topbar = $("div")[0]
 
-$(topbar).css({"background": "red"})
-
-
+$(topbar).click(function() {
+  $(topbar).css({"background": "blue"})
+})
 
 
 console.log("Hi")
