@@ -1,6 +1,5 @@
-function hi(name) {  
+function hi(name, name2) {  
   console.log("hi " + name)
 }
 
-hi(")
-willNotRun()
+hi("alex", "david")
