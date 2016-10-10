@@ -1,4 +1,7 @@
-function(name) {
-  console.log(name)
+function doStuff(name) {
+  console.log(name.toString())
 }
 
+doStuff("david")
+
+doStuff(doStuff)
