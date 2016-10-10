@@ -2,4 +2,4 @@ function whenClicked() {
   console.log("hihi")
 }
 
-$("#button").click(whenClicked())
+$("#button").click(whenClicked)
