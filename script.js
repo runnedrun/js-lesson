@@ -1,1 +1,3 @@
-$("#id").keydown(onKeydown)
+function logName(name) {
+  console.log(name)
+}
