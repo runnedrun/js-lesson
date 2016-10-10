@@ -1,9 +1,9 @@
 function whenClicked() {
-  console.log("hihi")
+  console.log("function run")
   return "1111"
 }
 
 var a = whenClicked()
-$("#button").click(a)
-
-$("#button").click(whenClicked)
+var b = whenClicked
+console.log(a)
+console.log(b)
