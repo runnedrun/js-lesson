@@ -1,3 +1,1 @@
-$("#id").keydown(function() {
-  console.log("Asdf")
-})
+$("#id").keydown(onKeydown)
