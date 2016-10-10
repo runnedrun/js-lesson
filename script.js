@@ -7,4 +7,3 @@ var a = whenClicked()
 var b = whenClicked
 
 console.log(a.toString())
-console.log(b.toString())
