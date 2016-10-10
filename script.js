@@ -1,5 +1,7 @@
 function hi(name, name2) {  
-  console.log("hi " + name)
+  console.log("hi " + name + name2)
 }
 
-hi("alex", "david")
+hi()
+
+function nameLength
