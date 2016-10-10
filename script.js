@@ -1,7 +1,10 @@
-function getApi(onceWeHaveData) {
-  // get the data
+function getApi(callMeWithData) {
+  // get the Api
   var data = "hi there"
-  onceWeHaveData(data)
+  callMeWithData(data)
 }
 
+getApi(function(data) {
+  console.log("API COMPLETE!" + data)
+})
 
