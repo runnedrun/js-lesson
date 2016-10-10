@@ -1,6 +1,6 @@
-function hi() {
+function hi(name) {  
   console.log("hi " + name)
 }
 
-hi()
+hi(")
 willNotRun()
